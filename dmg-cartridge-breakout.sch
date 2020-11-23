@@ -1,0 +1,167 @@
+EESchema Schematic File Version 4
+LIBS:dmg-cartridge-breakout-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "DMG-CARTRIDGE-BREAKOUT"
+Date "2019-11-16"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x32 J1
+U 1 1 5DCEE529
+P 5100 4100
+F 0 "J1" H 5018 5817 50  0000 C CNN
+F 1 "Conn_01x32" H 5018 5726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical_SMD" H 5100 4100 50  0001 C CNN
+F 3 "~" H 5100 4100 50  0001 C CNN
+	1    5100 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dmg-card:dmg-card J2
+U 1 1 5DCFBEA3
+P 6500 4150
+F 0 "J2" H 6558 6165 50  0000 C CNN
+F 1 "dmg-card" H 6558 6074 50  0000 C CNN
+F 2 "dmg-card:dmg-card" H 6500 2250 50  0001 C CNN
+F 3 "" H 6750 5500 50  0001 C CNN
+	1    6500 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2400 5700 2400
+Wire Wire Line
+	5700 2400 5700 2600
+Wire Wire Line
+	5700 2600 5300 2600
+Wire Wire Line
+	6250 2500 5750 2500
+Wire Wire Line
+	5750 2500 5750 2700
+Wire Wire Line
+	5750 2700 5300 2700
+Wire Wire Line
+	6250 2700 5800 2700
+Wire Wire Line
+	5800 2700 5800 2800
+Wire Wire Line
+	5800 2800 5300 2800
+Wire Wire Line
+	6250 2800 5850 2800
+Wire Wire Line
+	5850 2800 5850 2900
+Wire Wire Line
+	5850 2900 5300 2900
+Wire Wire Line
+	5300 3000 5900 3000
+Wire Wire Line
+	5900 3000 5900 2900
+Wire Wire Line
+	5900 2900 6250 2900
+Wire Wire Line
+	6250 3100 5300 3100
+Wire Wire Line
+	5300 3200 6250 3200
+Wire Wire Line
+	6250 3300 5300 3300
+Wire Wire Line
+	5300 3400 6250 3400
+Wire Wire Line
+	6250 3500 5300 3500
+Wire Wire Line
+	5300 3600 6250 3600
+Wire Wire Line
+	6250 3700 5300 3700
+Wire Wire Line
+	5300 3800 6250 3800
+Wire Wire Line
+	6250 3900 5300 3900
+Wire Wire Line
+	5300 4000 6250 4000
+Wire Wire Line
+	6250 4100 5300 4100
+Wire Wire Line
+	5300 4200 6250 4200
+Wire Wire Line
+	6250 4300 5300 4300
+Wire Wire Line
+	5300 4400 6250 4400
+Wire Wire Line
+	6250 4500 5300 4500
+Wire Wire Line
+	5300 4600 6250 4600
+Wire Wire Line
+	6250 4800 6050 4800
+Wire Wire Line
+	6050 4800 6050 4700
+Wire Wire Line
+	6050 4700 5300 4700
+Wire Wire Line
+	5300 4800 6000 4800
+Wire Wire Line
+	6000 4800 6000 4900
+Wire Wire Line
+	6000 4900 6250 4900
+Wire Wire Line
+	6250 5000 5950 5000
+Wire Wire Line
+	5950 5000 5950 4900
+Wire Wire Line
+	5950 4900 5300 4900
+Wire Wire Line
+	5300 5000 5900 5000
+Wire Wire Line
+	5900 5000 5900 5100
+Wire Wire Line
+	5900 5100 6250 5100
+Wire Wire Line
+	6250 5200 5850 5200
+Wire Wire Line
+	5850 5200 5850 5100
+Wire Wire Line
+	5850 5100 5300 5100
+Wire Wire Line
+	5300 5200 5800 5200
+Wire Wire Line
+	5800 5200 5800 5300
+Wire Wire Line
+	5800 5300 6250 5300
+Wire Wire Line
+	6250 5400 5750 5400
+Wire Wire Line
+	5750 5400 5750 5300
+Wire Wire Line
+	5750 5300 5300 5300
+Wire Wire Line
+	5300 5400 5700 5400
+Wire Wire Line
+	5700 5400 5700 5500
+Wire Wire Line
+	5700 5500 6250 5500
+Wire Wire Line
+	6250 5700 5650 5700
+Wire Wire Line
+	5650 5700 5650 5500
+Wire Wire Line
+	5650 5500 5300 5500
+Wire Wire Line
+	5300 5600 5600 5600
+Wire Wire Line
+	5600 5600 5600 5800
+Wire Wire Line
+	5600 5800 6250 5800
+Wire Wire Line
+	6250 5900 5550 5900
+Wire Wire Line
+	5550 5900 5550 5700
+Wire Wire Line
+	5550 5700 5300 5700
+$EndSCHEMATC

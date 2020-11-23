@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name dmg-card)(type KiCad)(uri ${KIPRJMOD}/mod/dmg-card.pretty)(options "")(descr ""))
+)
